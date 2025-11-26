@@ -1,0 +1,14 @@
+{
+  "name": "thisforthat",
+  "version": "1.0.0",
+  "description": "Find the right tool for your task",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"live-server --port=3000 --watch=app.js,index.html\"",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "live-server": "^1.2.2",
+    "concurrently": "^8.2.2"
+  }
+}
