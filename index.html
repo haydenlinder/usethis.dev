@@ -15,6 +15,17 @@
                 <p class="text-xl text-gray-600">Find the perfect tool for your task</p>
             </div>
 
+            <!-- Comparison Area (hidden by default) -->
+            <div id="comparisonArea" class="hidden mb-8">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="text-2xl font-bold text-gray-800">Comparing Tools</h2>
+                    <button id="clearComparison" class="px-4 py-2 text-sm text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg transition-colors">
+                        Clear Comparison
+                    </button>
+                </div>
+                <div id="comparisonContent" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+            </div>
+
             <!-- Search Bar -->
             <div class="relative mb-8">
                 <input
